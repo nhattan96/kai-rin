@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kai-rin/static/css/main.073c9b0a.css",
+    "main.js": "/kai-rin/static/js/main.806165ee.js",
+    "static/js/787.fdebc965.chunk.js": "/kai-rin/static/js/787.fdebc965.chunk.js",
+    "static/media/logo.svg": "/kai-rin/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/kai-rin/index.html",
+    "main.073c9b0a.css.map": "/kai-rin/static/css/main.073c9b0a.css.map",
+    "main.806165ee.js.map": "/kai-rin/static/js/main.806165ee.js.map",
+    "787.fdebc965.chunk.js.map": "/kai-rin/static/js/787.fdebc965.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.806165ee.js"
+  ]
+}
