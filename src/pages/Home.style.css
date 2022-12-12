@@ -30,19 +30,19 @@
 }
 
 .session-one__text1__item {
-    position: relative;
+  position: relative;
 }
 
 .session-one__text1__item__icon1 {
-    position: absolute;
-    top: -14px;
-    left: 95px;
+  position: absolute;
+  top: -14px;
+  left: 95px;
 }
 
 .session-one__text1__item__icon2 {
-    position: absolute;
-    top: -14px;
-    left: 112px;
+  position: absolute;
+  top: -14px;
+  left: 112px;
 }
 
 .session-one__text2 {
@@ -101,10 +101,10 @@
 /* Session Three */
 .session-three__container {
   position: relative;
-  height: 100vh;
+  height: 572px;
   background: url("../assests/Photos/2.png");
   background-repeat: no-repeat;
-  background-size: 100% 100vh;
+  background-size: contain;
   width: 100%;
 }
 
