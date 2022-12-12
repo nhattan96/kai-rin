@@ -1,0 +1,89 @@
+.session-one__container {
+  position: relative;
+  height: 100vh;
+  background: url("../assests/Photos/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: white;
+}
+
+.session-two__container {
+  position: relative;
+  width: 100%;
+}
+
+.session-three__container {
+  position: relative;
+  height: 100vh;
+  background: url("../assests/Photos/2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: white;
+}
+
+.session-one__picture {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+}
+
+.session-two__picture {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+}
+
+.session-three__picture {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+}
+
+.session-one__text1 {
+  position: absolute;
+  width: 100%;
+  font-family: "SVN-Ginger";
+  font-size: 58px;
+  line-height: 60px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.session-one__text2 {
+  font-family: "UVNAiCapNhe";
+  position: absolute;
+  width: 90%;
+  font: 30px;
+  text-align: left;
+  line-height: 30px;
+  left: 50%;
+  bottom: 50px;
+  transform: translate(-50%, 0%);
+}
+
+.session-two__text1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: "UVNBaLe";
+  font-size: 58px;
+  line-height: 60px;
+  left: 50%;
+  top: 50%;
+}
+
+.session-two__text1__heading {
+    font-size: 32px;
+}
+
+.session-two__text1__countdonw{
+    font-size: 58px;
+}
+
+.session-two__text1__date {
+    font-size: 16px;
+    letter-spacing: 8px;
+}
