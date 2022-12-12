@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/kai-rin/static/css/main.16436e86.css",
-    "main.js": "/kai-rin/static/js/main.3da2f07d.js",
+    "main.css": "/kai-rin/static/css/main.9b91d808.css",
+    "main.js": "/kai-rin/static/js/main.a9c12d0d.js",
     "static/js/787.fdebc965.chunk.js": "/kai-rin/static/js/787.fdebc965.chunk.js",
     "static/media/1.png": "/kai-rin/static/media/1.b5adf5a31ef4eb774b0f.png",
     "static/media/2.png": "/kai-rin/static/media/2.d94d9d1359f01623cad9.png",
     "static/media/3.png": "/kai-rin/static/media/3.7a6f8926aa2dc9e277fb.png",
     "static/media/4.png": "/kai-rin/static/media/4.e3a5c87cec79837a2582.png",
+    "static/media/UVNAiCapNhe.TTF": "/kai-rin/static/media/UVNAiCapNhe.e8132cd12a722c976c9d.TTF",
+    "static/media/UVNBaLe.TTF": "/kai-rin/static/media/UVNBaLe.485940f48409c2eda62b.TTF",
     "static/media/SVN-Ginger.otf": "/kai-rin/static/media/SVN-Ginger.1cddce653ec8ad6f1a8d.otf",
     "index.html": "/kai-rin/index.html",
-    "main.16436e86.css.map": "/kai-rin/static/css/main.16436e86.css.map",
-    "main.3da2f07d.js.map": "/kai-rin/static/js/main.3da2f07d.js.map",
+    "main.9b91d808.css.map": "/kai-rin/static/css/main.9b91d808.css.map",
+    "main.a9c12d0d.js.map": "/kai-rin/static/js/main.a9c12d0d.js.map",
     "787.fdebc965.chunk.js.map": "/kai-rin/static/js/787.fdebc965.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16436e86.css",
-    "static/js/main.3da2f07d.js"
+    "static/css/main.9b91d808.css",
+    "static/js/main.a9c12d0d.js"
   ]
 }
