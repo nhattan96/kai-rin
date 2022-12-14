@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/kai-rin/static/css/main.4c34bc5b.css",
-    "main.js": "/kai-rin/static/js/main.3479a119.js",
+    "main.css": "/kai-rin/static/css/main.1cd82c3b.css",
+    "main.js": "/kai-rin/static/js/main.0c4cd126.js",
     "static/js/787.fdebc965.chunk.js": "/kai-rin/static/js/787.fdebc965.chunk.js",
+    "static/media/6.png": "/kai-rin/static/media/6.2f522483b590d198856d.png",
+    "static/media/10.png": "/kai-rin/static/media/10.b86736101a80ada78f65.png",
     "static/media/5.png": "/kai-rin/static/media/5.b74b7aeb228c592719de.png",
+    "static/media/7.png": "/kai-rin/static/media/7.68af83c0ad7a7282200c.png",
+    "static/media/9.png": "/kai-rin/static/media/9.68af83c0ad7a7282200c.png",
+    "static/media/8.png": "/kai-rin/static/media/8.d7a1797afbd3b8337f9a.png",
     "static/media/1.png": "/kai-rin/static/media/1.b5adf5a31ef4eb774b0f.png",
     "static/media/2.png": "/kai-rin/static/media/2.d94d9d1359f01623cad9.png",
     "static/media/3.png": "/kai-rin/static/media/3.7a6f8926aa2dc9e277fb.png",
@@ -12,12 +17,12 @@
     "static/media/UVNBaLe.TTF": "/kai-rin/static/media/UVNBaLe.485940f48409c2eda62b.TTF",
     "static/media/SVN-Ginger.otf": "/kai-rin/static/media/SVN-Ginger.1cddce653ec8ad6f1a8d.otf",
     "index.html": "/kai-rin/index.html",
-    "main.4c34bc5b.css.map": "/kai-rin/static/css/main.4c34bc5b.css.map",
-    "main.3479a119.js.map": "/kai-rin/static/js/main.3479a119.js.map",
+    "main.1cd82c3b.css.map": "/kai-rin/static/css/main.1cd82c3b.css.map",
+    "main.0c4cd126.js.map": "/kai-rin/static/js/main.0c4cd126.js.map",
     "787.fdebc965.chunk.js.map": "/kai-rin/static/js/787.fdebc965.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c34bc5b.css",
-    "static/js/main.3479a119.js"
+    "static/css/main.1cd82c3b.css",
+    "static/js/main.0c4cd126.js"
   ]
 }
