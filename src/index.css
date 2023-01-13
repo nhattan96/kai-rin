@@ -22,6 +22,11 @@ body {
   src: url('/src/assests/Fonts/UVNBaLe.TTF')
 }
 
+@font-face {
+  font-family: 'RobotoCondensed';
+  src: url('/src/assests/Fonts/RobotoCondensed.ttf')
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -3,57 +3,58 @@ import { pic3, pic4 } from "../assests/Photos/photos";
 import { crown } from '../assests/Icons/icons'
 import styles from './Home.style.css'
 import moment from 'moment'
+import confetti from 'canvas-confetti'
+import Slideshow from './Slider';
+import CountDown from './CountDown.component';
 
 function Home() {
 
-  const [countDown, setCountDown] = useState({
-    days: '0',
-    hours: '00',
-    minutes: '00',
-    seconds: '00',
-  })
+  const firework = async () => {
+    var myCanvas = document.createElement('canvas');
+    myCanvas.style.position = "fixed"
+    myCanvas.style.top = 0
+    myCanvas.style.left = 0
+    myCanvas.style.height = '100vh'
+    myCanvas.style.width = '100%'
+    document.getElementById('root').appendChild(myCanvas);
 
-  const getCountDown = () => {
-    let weddingDay = new Date("Mar 19, 2023 11:00:00").getTime()
-
-    let now = new Date().getTime();
-
-    let distance = weddingDay - now
-
-    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    const countDown = {
-      days: days < 10 ? '0' + String(days) : days,
-      hours: hours < 10 ? '0' + String(hours) : hours,
-      minutes: minutes < 10 ? '0' + String(minutes) : minutes,
-      seconds: seconds < 10 ? '0' + String(seconds) : seconds
-    }
-
-    setCountDown(prev => countDown)
+    var myConfetti = confetti.create(myCanvas, {
+      resize: true,
+      useWorker: true
+    });
+    myConfetti({
+      particleCount: 300,
+      spread: 160,
+    }).then(() => {
+      document.getElementsByTagName('canvas')[0].remove()
+    });
   }
 
   useEffect(() => {
-    setInterval(() => {
-      getCountDown()
-    }, 1000);
+    firework()
+    let count = 0
+    let loop = setInterval(() => {
+      count++
+      firework()
+      if (count === 2) {
+        window.clearInterval(loop)
+
+      }
+    }, 4000)
+
   }, []);
-
-
   return (
     <div className="Home">
       <div className="session-one">
         <div className="session-one__container">
           <div className="session-one__text1">
             <div className='session-one__text1__item'>
-              BRIAN NGUYỄN
+              KAI TRẦN
               <img className='session-one__text1__item__icon1' src={crown} alt="crown" />
             </div>
             <p>&</p>
             <div className='session-one__text1__item'>
-              ALEX  NGÔ
+              RIN RIN
               <img className='session-one__text1__item__icon2' src={crown}
                 alt="crown" />
             </div>
@@ -68,40 +69,24 @@ function Home() {
 
         </div>
       </div>
-      <div className="session-two">
-        <div className="session-two__container">
-          <div className="session-two__text1">
-            <div className="session-two__text1__heading">
-              WEDDING COUNTDOWN
-            </div>
-            <div className="session-two__text1__countdown">
-              <div className='session-two__text1__countdown__item'>
-                {countDown.days}
-                <p className='session-two__text1__countdown__item__label'>NGÀY</p>
-              </div>:
-              <div className='session-two__text1__countdown__item'>
-                {countDown.hours}
-                <p className='session-two__text1__countdown__item__label'>GIỜ</p>
-              </div>:
-              <div className='session-two__text1__countdown__item'>{countDown.minutes}
-                <p className='session-two__text1__countdown__item__label'>PHÚT</p>
-              </div>:
-              <div className='session-two__text1__countdown__item'>{countDown.seconds}
-                <p className='session-two__text1__countdown__item__label'>GIÂY</p>
-              </div>
-            </div>
-          </div>
-        </div>
 
-      </div>
-      <div className="session-three">
-        <div className="session-three__container"></div>
+      <CountDown></CountDown>
 
-      </div>
       <div className="session-four">
         <div className='session-four__container'>
-          <img className="session-four__picture session-four__picture__right" src={pic3} alt="" />
-          <img className="session-four__picture session-four__picture__left" src={pic4} alt="" />
+          <img className="session-four__picture session-four__picture__background"
+            src="https://drive.google.com/uc?export=view&id=1b2Qcu2AIzYCH8-an0xnucw6AFjB5igC3" alt="" />
+          <img className="session-four__picture session-four__picture__right"
+            src="https://drive.google.com/uc?export=view&id=1EJvgXk-VQNrAxaMlw1_jSBmdTtgakwMG" alt="" />
+          <img className="session-four__picture session-four__picture__left"
+            src="https://drive.google.com/uc?export=view&id=1zoDyarm1mKwSkk7evuG-lFSqE9VP1mS4" alt="" />
+        </div>
+      </div>
+
+      <div className='session-five'>
+        <div className='session-five__container'>
+          <Slideshow></Slideshow>
+
         </div>
       </div>
     </div>

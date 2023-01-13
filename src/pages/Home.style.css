@@ -2,7 +2,7 @@
 .session-one__container {
   position: relative;
   height: 100vh;
-  background: url("../assests/Photos/1.png");
+  background: url("https://drive.google.com/uc?export=view&id=1AU0Y69K6Ut3xUqDHDmC34cZRIOYc14Ix");
   background-repeat: no-repeat;
   background-size: 100% 100vh;
   width: 100%;
@@ -27,6 +27,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  align-items: center;
 }
 
 .session-one__text1__item {
@@ -36,20 +37,20 @@
 .session-one__text1__item__icon1 {
   position: absolute;
   top: -14px;
-  left: 95px;
+  left: 54px;
 }
 
 .session-one__text1__item__icon2 {
   position: absolute;
   top: -14px;
-  left: 112px;
+  left: 27px;
 }
 
 .session-one__text2 {
   font-family: "UVNAiCapNhe";
   position: absolute;
   width: 90%;
-  font: 30px;
+  font-size: 20px;
   text-align: left;
   line-height: 30px;
   left: 50%;
@@ -57,10 +58,14 @@
   transform: translate(-50%, 0%);
 }
 /* Session Two */
+.session-two {
+  height: 100vh;
+}
 
-.session-two__container {
+.session-two__container1 {
   position: relative;
   width: 100%;
+  height: 22vh;
 }
 
 .session-two__picture {
@@ -98,14 +103,33 @@
   font-size: 16px;
 }
 
-/* Session Three */
-.session-three__container {
+.session-two__container2 {
   position: relative;
-  height: 572px;
-  background: url("../assests/Photos/2.png");
+  height: 78vh;
+  background: url("https://drive.google.com/uc?export=view&id=1gaUgRua3e2s48PRkrAQpVwlo7dUyrmNz");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
   width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.session-two__container2_text {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.session-two__container2_text_1 {
+  font-family: "UVNBaLe";
+  font-size: 40px;
+}
+
+.session-two__container2_text_2 {
+  font-family: "RobotoCondensed";
+  font-size: 40px;
+  padding-top: 8px;
+  margin-left: 10px;
 }
 
 /* Session Four */
@@ -119,15 +143,24 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  background: url("../assests/Photos/5.png");
+  /* background: url("https://drive.google.com/uc?export=view&id=1b2Qcu2AIzYCH8-an0xnucw6AFjB5igC3"); */
   background-repeat: no-repeat;
-  background-size: 100% 100vh;
+  background-size: 100% 100%;
   width: 100%;
+  /* background-color: transparent; */
 }
 
 .session-four__picture {
   width: 50%;
+  height: 50%;
+}
+
+.session-four__picture__background {
+  width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
 }
 
 .session-four__picture__left {
@@ -135,4 +168,10 @@
 }
 .session-four__picture__right {
   align-self: end;
+}
+
+.session-five {
+  position: relative;
+  height: 100vh;
+  width: 100%;
 }
