@@ -43,8 +43,8 @@ function Home() {
       <div className="session-two__container2">
         <div className="session-two__container2_text">
           <div className="session-two__container2_text_3">
-          <img className='' src={beatingHeart}
-                alt="beatingHeart" />
+            <img className='' src={beatingHeart}
+              alt="beatingHeart" />
           </div>
 
           <div className="session-two__container2_text_1">
