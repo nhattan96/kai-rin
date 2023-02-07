@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { rings } from "../assests/Icons/icons";
 
 const CountDown = () => {
 
@@ -62,31 +61,6 @@ const CountDown = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="session-two__container2">
-                <div className="session-two__container2_text">
-                    <div className="session-two__container2_text_1">
-                        <p>
-                            19
-                        </p>
-                        <p>
-                            03
-                        </p>
-                        <p>
-                            2023
-                        </p>
-                    </div>
-                    <div className="session-two__container2_text_2">
-                        <p>
-                            The
-                        </p>
-                        <img src={rings} alt="" />
-                        <p>
-                            day
-                        </p>
-                    </div>
-                </div>
-
             </div>
         </div>
     )

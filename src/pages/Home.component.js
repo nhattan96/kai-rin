@@ -1,48 +1,15 @@
 import { useState, useRef, useEffect } from 'react'
 import { pic3, pic4 } from "../assests/Photos/photos";
-import { crown } from '../assests/Icons/icons'
+import { beatingHeart, crown, crownQ, rings } from '../assests/Icons/icons'
 import styles from './Home.style.css'
 import moment from 'moment'
-import confetti from 'canvas-confetti'
+
 import Slideshow from './Slider';
 import CountDown from './CountDown.component';
 
 function Home() {
 
-  const firework = async () => {
-    var myCanvas = document.createElement('canvas');
-    myCanvas.style.position = "fixed"
-    myCanvas.style.top = 0
-    myCanvas.style.left = 0
-    myCanvas.style.height = '100vh'
-    myCanvas.style.width = '100%'
-    document.getElementById('root').appendChild(myCanvas);
 
-    var myConfetti = confetti.create(myCanvas, {
-      resize: true,
-      useWorker: true
-    });
-    myConfetti({
-      particleCount: 300,
-      spread: 160,
-    }).then(() => {
-      document.getElementsByTagName('canvas')[0].remove()
-    });
-  }
-
-  useEffect(() => {
-    firework()
-    let count = 0
-    let loop = setInterval(() => {
-      count++
-      firework()
-      if (count === 2) {
-        window.clearInterval(loop)
-
-      }
-    }, 4000)
-
-  }, []);
   return (
     <div className="Home">
       <div className="session-one">
@@ -50,12 +17,13 @@ function Home() {
           <div className="session-one__text1">
             <div className='session-one__text1__item'>
               KAI TRẦN
-              <img className='session-one__text1__item__icon1' src={crown} alt="crown" />
+              <img className='session-one__text1__item__icon1' src={crown}
+                alt="crown" />
             </div>
             <p>&</p>
             <div className='session-one__text1__item'>
               RIN RIN
-              <img className='session-one__text1__item__icon2' src={crown}
+              <img className='session-one__text1__item__icon2' src={crownQ}
                 alt="crown" />
             </div>
           </div>
@@ -72,14 +40,45 @@ function Home() {
 
       <CountDown></CountDown>
 
+      <div className="session-two__container2">
+        <div className="session-two__container2_text">
+          <div className="session-two__container2_text_3">
+          <img className='' src={beatingHeart}
+                alt="beatingHeart" />
+          </div>
+
+          <div className="session-two__container2_text_1">
+            <p>
+              19
+            </p>
+            <p>
+              03
+            </p>
+            <p>
+              2023
+            </p>
+          </div>
+          <div className="session-two__container2_text_2">
+            <p>
+              The
+            </p>
+            <img src={rings} alt="" />
+            <p>
+              day
+            </p>
+          </div>
+        </div>
+
+      </div>
+
       <div className="session-four">
         <div className='session-four__container'>
           <img className="session-four__picture session-four__picture__background"
-            src="https://drive.google.com/uc?export=view&id=1b2Qcu2AIzYCH8-an0xnucw6AFjB5igC3" alt="" />
+            src="https://drive.google.com/uc?export=view&id=1b2Qcu2AIzYCH8-an0xnucw6AFjB5igC3" alt="" loading='lazy' />
           <img className="session-four__picture session-four__picture__right"
-            src="https://drive.google.com/uc?export=view&id=1EJvgXk-VQNrAxaMlw1_jSBmdTtgakwMG" alt="" />
+            src="https://drive.google.com/uc?export=view&id=1EJvgXk-VQNrAxaMlw1_jSBmdTtgakwMG" alt="" loading='lazy' />
           <img className="session-four__picture session-four__picture__left"
-            src="https://drive.google.com/uc?export=view&id=1zoDyarm1mKwSkk7evuG-lFSqE9VP1mS4" alt="" />
+            src="https://drive.google.com/uc?export=view&id=1zoDyarm1mKwSkk7evuG-lFSqE9VP1mS4" alt="" loading='lazy' />
         </div>
       </div>
 
