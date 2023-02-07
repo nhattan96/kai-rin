@@ -160,6 +160,59 @@
   background-size: 100% 100%;
   width: 100%;
   /* background-color: transparent; */
+  color: white;
+}
+
+.session-four__container__top {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 50%;
+  padding: 10px;
+  background: #d1d1d145;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+.session-four__container__top__text1 {
+  text-align: left;
+  font-family: "UVNAiCapNhe";
+}
+
+.session-four__container__top__text2 {
+  font-family: "Vanilla";
+  font-size: 50px;
+  margin-top:45px;
+}
+
+.session-four__container__top__icon {
+  margin-top: 10px;
+  width: 70px;
+}
+
+.session-four__container__bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  padding: 10px;
+  background: #d1d1d145;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+.session-four__container__bottom__text1 {
+  text-align: left;
+  font-family: "UVNAiCapNhe";
+}
+
+.session-four__container__bottom__text2 {
+  font-family: "Vanilla";
+  font-size: 40px;
+}
+
+.session-four__container__bottom__icon {
+  width: 60px;
 }
 
 .session-four__picture {

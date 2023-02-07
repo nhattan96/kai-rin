@@ -27,6 +27,11 @@ body {
   src: url('/src/assests/Fonts/RobotoCondensed.ttf')
 }
 
+@font-face {
+  font-family: 'Vanilla';
+  src: url('/src/assests/Fonts/SVN-Vanilla Daisy Pro.ttf')
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

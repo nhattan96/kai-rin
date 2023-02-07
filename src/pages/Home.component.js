@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { pic3, pic4 } from "../assests/Photos/photos";
-import { beatingHeart, crown, crownQ, rings } from '../assests/Icons/icons'
+import { beatingHeart, crown, crownQ, highShoe, rings, shoe } from '../assests/Icons/icons'
 import styles from './Home.style.css'
 import moment from 'moment'
 
@@ -74,11 +74,32 @@ function Home() {
       <div className="session-four">
         <div className='session-four__container'>
           <img className="session-four__picture session-four__picture__background"
-            src="https://drive.google.com/uc?export=view&id=1b2Qcu2AIzYCH8-an0xnucw6AFjB5igC3" alt="" loading='lazy' />
+            src="https://drive.google.com/uc?export=view&id=1b2Qcu2AIzYCH8-an0xnucw6AFjB5igC3" alt="" loading='lazy'/>
           <img className="session-four__picture session-four__picture__right"
-            src="https://drive.google.com/uc?export=view&id=1EJvgXk-VQNrAxaMlw1_jSBmdTtgakwMG" alt="" loading='lazy' />
+            src="https://drive.google.com/uc?export=view&id=1EJvgXk-VQNrAxaMlw1_jSBmdTtgakwMG" alt=""  />
           <img className="session-four__picture session-four__picture__left"
-            src="https://drive.google.com/uc?export=view&id=1zoDyarm1mKwSkk7evuG-lFSqE9VP1mS4" alt="" loading='lazy' />
+            src="https://drive.google.com/uc?export=view&id=1zoDyarm1mKwSkk7evuG-lFSqE9VP1mS4" alt="" />
+
+          <div className='session-four__container__top'>
+            <p className='session-four__container__top__text1'>
+              Yêu nhau mấy núi cũng trèo Mấy sông cũng lội Nhà xa cỡ nào Anh cũng tới đón em đi chơi
+            </p>
+            <p className='session-four__container__top__text2'>
+              Princess
+            </p>
+            <img className='session-four__container__top__icon' src={shoe} alt="" />
+          </div>
+          <div className='session-four__container__bottom'>
+            <p className='session-four__container__bottom__text2'>
+              Princess's <br /> Boss
+            </p>
+            <img className='session-four__container__bottom__icon' src={highShoe} alt="" />
+            <p className='session-four__container__bottom__text1'>
+              Anh đã bên em lúc em tồi tệ nhất
+              Thế nên Anh xứng đáng có được em lúc e rực rỡ nhất
+            </p>
+          </div>
+
         </div>
       </div>
 
