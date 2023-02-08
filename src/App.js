@@ -9,7 +9,7 @@ function App() {
   const Loading = () => <div className='loading'>
     <img src={bunny} alt="bunny" />
     <div className="lds-heart"><div></div></div>
-    <d>Đợi xíu nhá !</d>
+    <p>Đợi xíu nhá !</p>
     <h4>Please Wait...</h4>
   </div>
 

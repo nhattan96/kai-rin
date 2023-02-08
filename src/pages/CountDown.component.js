@@ -38,7 +38,7 @@ const CountDown = () => {
     }, []);
 
     return (
-        <div className="session-two">
+        <div className="session-two mt-2 mb-3">
             <div className="session-two__container1">
                 <div className="session-two__text1">
                     <div className="session-two__text1__heading">
