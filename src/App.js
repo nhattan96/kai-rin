@@ -9,7 +9,8 @@ function App() {
   const Loading = () => <div className='loading'>
     <img src={bunny} alt="bunny" />
     <div className="lds-heart"><div></div></div>
-    <div>Đợi xíu nhá !</div>
+    <d>Đợi xíu nhá !</d>
+    <h4>Please Wait...</h4>
   </div>
 
   useEffect(() => {
