@@ -57,7 +57,7 @@
   bottom: 100px;
   transform: translate(-50%, 0%);
 
-  background: #d1d1d145;
+  background: #40404045;
   padding: 8px;
   border-radius: 15px;
 }
@@ -169,7 +169,7 @@
   left: 0;
   width: 50%;
   padding: 10px;
-  background: #d1d1d145;
+  background: #00000045;
   padding: 8px;
   border-radius: 15px;
 }
@@ -196,7 +196,7 @@
   right: 0;
   width: 50%;
   padding: 10px;
-  background: #d1d1d145;
+  background: #00000045;
   padding: 8px;
   border-radius: 15px;
 }
