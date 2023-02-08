@@ -10,12 +10,14 @@ function App() {
   const [isMobible, setIsMobile] = useState(false)
 
   const handleResize = () => {
-    if (window.innerWidth <= 768) {
-      setIsMobile(true)
+
+    console.log(isMobible)
+    if (!isMobible) {
+      if (window.innerWidth <= 768) {
+        setIsMobile(true)
+      }
     }
-    else {
-      setIsMobile(false)
-    }
+
   }
   const Loading = () => <div className='loading'>
     <img src={bunny} alt="bunny" />
@@ -24,8 +26,9 @@ function App() {
     <h4>Please Wait...</h4>
   </div>
 
+  handleResize()
+
   useEffect(() => {
-    window.addEventListener('resize', handleResize)
 
     let count = 0
     let loop = setInterval(() => {

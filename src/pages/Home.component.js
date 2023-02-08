@@ -219,8 +219,8 @@ function Home() {
           fontSize: '80px',
           top: '270px',
           background: 'linear-gradient(to right, #2196f3, #f44336)',
-          '-webkit-background-clip': 'text',
-          '-webkit-text-fill-color': 'transparent'
+          'WebkitBackgroundClip': 'text',
+          'WebkitTextFillColor': 'transparent'
         }}>Thank You</p>
         <p
           style={{
@@ -229,8 +229,8 @@ function Home() {
             fontSize: '25px',
             top: '380px',
             background: 'linear-gradient(to right, #eecda3, #ef629f)',
-            '-webkit-background-clip': 'text',
-            '-webkit-text-fill-color': 'transparent'
+            'WebkitBackgroundClip': 'text',
+            'WebkitTextFillColor': 'transparent'
           }} >for celebrating with us</p>
         <img style={{
           position: 'absolute',
