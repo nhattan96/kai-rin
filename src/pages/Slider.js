@@ -2,22 +2,24 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
+import { p113, p46, p70, p85, p9 } from '../assests/Photos/photos';
 
 const slideImages = [
     {
-        url: "https://drive.google.com/uc?export=view&id=1FroN8bvYxgEju-O6zm1KrL9c6T38IIFa"
+        url: p9
     },
     {
-        url: "https://drive.google.com/uc?export=view&id=1Vw9p9JN-D78sIh45I6JG32Iu_EUOzUoG"
+        url: p46
+
     },
     {
-        url: "https://drive.google.com/uc?export=view&id=11GodKJ1X1AuqZKRu-SG-CTBP3b4hsLAc"
+        url: p70
     },
     {
-        url: "https://drive.google.com/uc?export=view&id=1UPB7hiydhI2gY1lCm3eorO7tdssZcMe8"
+        url: p85
     },
     {
-        url: "https://drive.google.com/uc?export=view&id=1tXE4RSy9mcTJiVUvds2eZG1M3AeDwxCn"
+        url: p113
     },
 ];
 
@@ -52,7 +54,7 @@ const Slideshow = () => {
                             style={{
                                 'backgroundImage': `url(${slideImage.url})`,
                                 'backgroundSize': 'cover',
-                                backgroundPosition: `${index === 3 ? '50% 75%':  '65% 75%'  }`,
+                                backgroundPosition: `${index === 0 ? '50% 75%':  '65% 75%'  }`,
                                 backgroundRepeat: 'no-repeat',
                                 height: '100vh'
                             }}>

@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
-import { pic3, pic4 } from "../assests/Photos/photos";
+import { p104, p109, p117, p14, p20, p30, p36, p39, p6, p60, p61, p62, p63, p67, p72, pic3, pic4 } from "../assests/Photos/photos";
 import { beatingHeart, cheer, crown, crownQ, highShoe, place, restaurent, rings, shoe } from '../assests/Icons/icons'
 import styles from './Home.style.css'
 import moment from 'moment'
@@ -73,7 +73,7 @@ function Home() {
 
       <div className='session-6'>
         <div className='session-6__container'>
-          <img className='session-6__container--img' src="https://drive.google.com/uc?export=view&id=1xYeDvted545g2ONaMlHxQ4i60ZMY52MZ" alt="" />
+          <img className='session-6__container--img' src={p67} alt="" />
 
           <div>
             <p className='session-6__container--tittle'>
@@ -89,7 +89,7 @@ function Home() {
                 justifyContent: 'center',
                 display: 'flex',
               }}>
-                <img src={place} alt="icon" />
+                <img src={restaurent} alt="icon" />
               </div>
               <div className="col-9 session-6__container--subtitle session-6__container--subtitle-1 ">
                 CENTURY GIA LAI
@@ -105,7 +105,7 @@ function Home() {
                 justifyContent: 'center',
                 display: 'flex',
               }}>
-                <img src={restaurent} alt="icon" />
+                <img src={place} alt="icon" />
               </div>
               <div className="col-9 session-6__container--subtitle session-6__container--subtitle-2">
                 170 Đường Wừu, P. Hội Thương, Thành phố Pleiku, Gia Lai
@@ -131,11 +131,11 @@ function Home() {
       <div className="session-four">
         <div className='session-four__container'>
           <img className="session-four__picture session-four__picture__background"
-            src="https://drive.google.com/uc?export=view&id=1ebraeyNgkc9tqViDv35dY9mz7U5mZao-" alt="" />
+            src={p72} alt="" />
           <img className="session-four__picture session-four__picture__right"
-            src="https://drive.google.com/uc?export=view&id=1GxPVtdtm3Rwcgo_7TFCPc-ngUZNuhziJ" alt="" />
+            src={p109} alt="" />
           <img className="session-four__picture session-four__picture__left"
-            src="https://drive.google.com/uc?export=view&id=1TJ0QOTAiw29FHsjsomzyn8SWs0jKFjB0" alt="" />
+            src={p104} alt="" />
 
           <div className='session-four__container__top'>
             <p className='session-four__container__top__text1'>
@@ -167,24 +167,24 @@ function Home() {
       </div>
 
       <div>
-        <img className='w-100' src="https://drive.google.com/uc?export=view&id=1sx2B1U12mDev4Sh4vKQNGalMF9jYqfN1" alt="" />
-        <img className='w-100' src="https://drive.google.com/uc?export=view&id=1O0YurHFuxLgV2KPRsGC-eqwgm_FXG4xC" alt="" />
-        <img className='w-100' src="https://drive.google.com/uc?export=view&id=1ESVOa_ZQUX2t57PPeivbPr3-Ie2A5T8b" alt="" />
-        <img className='w-100' src="https://drive.google.com/uc?export=view&id=1108e4FyQwaqKUBFWguyCJ2GpDhOf1jPv" alt="" />
-        <img className='w-100' src="https://drive.google.com/uc?export=view&id=14kId5SULnc-QhGSjzSYEoKnUXEZ1fquJ" alt="" />
-        <img className='w-50' src="https://drive.google.com/uc?export=view&id=1Yhg4CVnujtv5Kt6oFSy7woZaZbVPgCx1" alt="" />
-        <img className='w-50' src="https://drive.google.com/uc?export=view&id=14RWSkQdwYFTAPP14AwTmbP6HczJdR-ib" alt="" />
-        <img className='w-100' src="https://drive.google.com/uc?export=view&id=1d9pmUE7TcDnKqwAiRmDlYpSqnQAXI1-k" alt="" />
+        <img className='w-100' src={p6} alt="" />
+        <img className='w-100' src={p14} alt="" />
+        <img className='w-100' src={p20} alt="" />
+        <img className='w-100' src={p30} alt="" />
+        <img className='w-100' src={p36} alt="" />
+        <img className='w-50' src={p117} alt="" />
+        <img className='w-50' src={p39} alt="" />
+        <img className='w-100' src={p60} alt="" />
         <div className='d-flex '>
           <div className='w-50' style={{
-            'backgroundImage': `url("https://drive.google.com/uc?export=view&id=1OtkDnBsx7Xop2Zt5uj33ub68LLow9hEb")`,
+            'backgroundImage': `url("${p61}")`,
             'backgroundSize': 'cover',
             backgroundPosition: '76% 75%',
             height: '350px'
           }} >
           </div>
           <div className='w-50' style={{
-            'backgroundImage': `url("https://drive.google.com/uc?export=view&id=1xTIRwpz6cmNFm0FkskYpF6WneSh41GCZ")`,
+            'backgroundImage': `url("${p62}")`,
             'backgroundSize': 'cover',
             backgroundPosition: '76% 75%',
             height: '350px'
@@ -205,7 +205,7 @@ function Home() {
       }}>
         <div
           style={{
-            'backgroundImage': `url("https://drive.google.com/uc?export=view&id=1coUkpt-bcBRHwn2Sp3k73mnjN3HuSJ3m")`,
+            'backgroundImage': `url("${p63}")`,
             'backgroundSize': 'cover',
             backgroundPosition: '76% 75%',
             height: '100vh',
