@@ -8,6 +8,7 @@ export {default as highShoe} from './high-heeled shoe_.png'
 export {default as place} from './icon _placeholder_.png'
 export {default as restaurent} from './icon _restaurant_.png'
 export {default as cheer} from './icon _cheer 1_.png'
+export {default as sorry} from './sorry.gif'
 
 
 

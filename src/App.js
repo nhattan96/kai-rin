@@ -2,10 +2,21 @@ import './App.css';
 import Home from './pages/Home.component';
 import { useEffect } from 'react'
 import confetti from 'canvas-confetti'
-import { bunny } from './assests/Icons/icons';
+import { bunny, sorry } from './assests/Icons/icons';
+import React, { useState } from 'react';
 
 function App() {
 
+  const [isMobible, setIsMobile] = useState(false)
+
+  const handleResize = () => {
+    if (window.innerWidth <= 768) {
+      setIsMobile(true)
+    }
+    else {
+      setIsMobile(false)
+    }
+  }
   const Loading = () => <div className='loading'>
     <img src={bunny} alt="bunny" />
     <div className="lds-heart"><div></div></div>
@@ -14,6 +25,8 @@ function App() {
   </div>
 
   useEffect(() => {
+    window.addEventListener('resize', handleResize)
+
     let count = 0
     let loop = setInterval(() => {
       count++
@@ -59,8 +72,20 @@ function App() {
   return (
 
     <div className="App">
-      <Loading></Loading>
-      <Home></Home>
+      {
+        isMobible ? <div>
+          <Loading></Loading>
+          <Home></Home>
+        </div> : <div>
+          <img src={sorry} alt="" />
+          <h1 style={{
+            fontFamily: "UVNAiCapNhe"
+          }}>
+            Please re-open on your mobile phone !
+          </h1>
+        </div>
+      }
+
     </div>
   );
 }
