@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kai-rin/static/css/main.4d56be34.css",
-    "main.js": "/kai-rin/static/js/main.6caae9e6.js",
+    "main.js": "/kai-rin/static/js/main.cb2057c8.js",
     "static/js/787.fdebc965.chunk.js": "/kai-rin/static/js/787.fdebc965.chunk.js",
     "static/media/sorry.gif": "/kai-rin/static/media/sorry.8d1e3cfb34f761f1d0f2.gif",
     "static/media/SVN-Vanilla Daisy Pro.ttf": "/kai-rin/static/media/SVN-Vanilla Daisy Pro.b0cb4fe7f4632f10b076.ttf",
@@ -22,11 +22,11 @@
     "static/media/SVN-Ginger.otf": "/kai-rin/static/media/SVN-Ginger.1cddce653ec8ad6f1a8d.otf",
     "index.html": "/kai-rin/index.html",
     "main.4d56be34.css.map": "/kai-rin/static/css/main.4d56be34.css.map",
-    "main.6caae9e6.js.map": "/kai-rin/static/js/main.6caae9e6.js.map",
+    "main.cb2057c8.js.map": "/kai-rin/static/js/main.cb2057c8.js.map",
     "787.fdebc965.chunk.js.map": "/kai-rin/static/js/787.fdebc965.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d56be34.css",
-    "static/js/main.6caae9e6.js"
+    "static/js/main.cb2057c8.js"
   ]
 }
