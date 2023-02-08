@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { pic3, pic4 } from "../assests/Photos/photos";
-import { beatingHeart, crown, crownQ, highShoe, rings, shoe } from '../assests/Icons/icons'
+import { beatingHeart, crown, crownQ, highShoe, place, restaurent, rings, shoe } from '../assests/Icons/icons'
 import styles from './Home.style.css'
 import moment from 'moment'
 
@@ -71,14 +71,57 @@ function Home() {
 
       </div>
 
+      <div className='session-6'>
+        <div className='session-6__container'>
+          <img className='session-6__container--img' src="https://drive.google.com/uc?export=view&id=1xYeDvted545g2ONaMlHxQ4i60ZMY52MZ" alt="" />
+
+          <div>
+            <p className='session-6__container--tittle'>
+              WEDDING PLACE
+            </p>
+
+            <div className="row p-1 mb-4">
+              <div className="col-3">
+                <img src={place} alt="icon" />
+              </div>
+              <div className="col-9 session-6__container--subtitle session-6__container--subtitle-1 ">
+                CENTURY GIA LAI
+              </div>
+            </div>
+
+            <div className="row p-1 mb-4">
+              <div className="col-3">
+                <img src={restaurent} alt="icon" />
+              </div>
+              <div className="col-9 session-6__container--subtitle session-6__container--subtitle-2">
+                170 Đường Wừu, P. Hội Thương, Thành phố Pleiku, Gia Lai
+              </div>
+            </div>
+          </div>
+          <p className='session-6__container--end mb-4'>
+            OK <br /> Gét Go
+          </p>
+          <div>
+            <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d849.0700974014501!2d108.00261027372075!3d13.974717643963391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316c1f819a3d8d6d%3A0x92eae9df6da39550!2sCentury%20Restaurant!5e0!3m2!1svi!2s!4v1675827785361!5m2!1svi!2s"
+              style={{
+                border: 0, width: '100%',
+                height: '300px'
+              }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+
+
+        </div>
+      </div>
+
       <div className="session-four">
         <div className='session-four__container'>
           <img className="session-four__picture session-four__picture__background"
-            src="https://drive.google.com/uc?export=view&id=1b2Qcu2AIzYCH8-an0xnucw6AFjB5igC3" alt="" loading='lazy'/>
+            src="https://drive.google.com/uc?export=view&id=1ebraeyNgkc9tqViDv35dY9mz7U5mZao-" alt="" loading='lazy' />
           <img className="session-four__picture session-four__picture__right"
-            src="https://drive.google.com/uc?export=view&id=1EJvgXk-VQNrAxaMlw1_jSBmdTtgakwMG" alt=""  />
+            src="https://drive.google.com/uc?export=view&id=1GxPVtdtm3Rwcgo_7TFCPc-ngUZNuhziJ" alt="" />
           <img className="session-four__picture session-four__picture__left"
-            src="https://drive.google.com/uc?export=view&id=1zoDyarm1mKwSkk7evuG-lFSqE9VP1mS4" alt="" />
+            src="https://drive.google.com/uc?export=view&id=1TJ0QOTAiw29FHsjsomzyn8SWs0jKFjB0" alt="" />
 
           <div className='session-four__container__top'>
             <p className='session-four__container__top__text1'>
@@ -106,10 +149,11 @@ function Home() {
       <div className='session-five'>
         <div className='session-five__container'>
           <Slideshow></Slideshow>
-
         </div>
       </div>
-    </div>
+
+
+    </div >
   );
 }
 

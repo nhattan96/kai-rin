@@ -24,13 +24,13 @@ function App() {
           let loop = setInterval(() => {
             count++
             firework()
-            if (count === 2) {
+            if (count === 1) {
               window.clearInterval(loop)
             }
-          }, 5000)
+          }, 4000)
         }
       }
-    }, 7000)
+    }, 4000)
 
   }, []);
 
