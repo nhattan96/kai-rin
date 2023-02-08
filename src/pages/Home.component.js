@@ -99,7 +99,7 @@ function Home() {
             </div>
           </div>
           <p className='session-6__container--end mb-4'>
-            OK <br /> Gét Go
+            OK <br /> Gét gô
           </p>
           <div>
             <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d849.0700974014501!2d108.00261027372075!3d13.974717643963391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316c1f819a3d8d6d%3A0x92eae9df6da39550!2sCentury%20Restaurant!5e0!3m2!1svi!2s!4v1675827785361!5m2!1svi!2s"

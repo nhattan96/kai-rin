@@ -89,6 +89,9 @@
 }
 
 .session-two__text1__heading {
+  background: linear-gradient(to right, #2196f3, #f44336);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 32px;
 }
 
@@ -241,7 +244,6 @@
   width: 100%;
 }
 
-
 .session-6__container {
 }
 .session-6__container--img {
@@ -253,6 +255,9 @@
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 20px !important;
+  background: linear-gradient(to right, #2196f3, #f44336);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .session-6__container--subtitle {
@@ -274,4 +279,8 @@
 .session-6__container--end {
   font-family: "Vanilla";
   font-size: 80px;
+  background: linear-gradient(to right, #2196f3, #f44336);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 260px;
 }
