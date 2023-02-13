@@ -191,7 +191,6 @@ function Home() {
         </Animate.FadeIn>
         <Animate.FadeIn>
         <img className='w-50' src={p117} alt="" />
-
           <img className='w-50' src={p39} alt="" />
           <img className='w-100' src={p60} alt="" />
         </Animate.FadeIn>
