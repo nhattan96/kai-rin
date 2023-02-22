@@ -20,6 +20,8 @@ export {default as p117} from './Pic-117.jpg'
 
 export {default as p63} from './Pic-63.jpg'
 export {default as p62} from './Pic-62.jpg'
+export {default as p50} from './Pic-50.jpg'
+export {default as qr} from './qr.jpg'
 
 
 

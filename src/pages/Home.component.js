@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
-import { p104, p109, p117, p14, p20, p30, p36, p39, p6, p60, p61, p62, p63, p67, p72, pic3, pic4 } from "../assests/Photos/photos";
+import { p104, p109, p117, p14, p20, p30, p36, p39, p50, p6, p60, p61, p62, p63, p67, p72, pic3, pic4, qr } from "../assests/Photos/photos";
 import { beatingHeart, cheer, crown, crownQ, highShoe, place, restaurent, rings, shoe } from '../assests/Icons/icons'
 import styles from './Home.style.css'
 import moment from 'moment'
@@ -43,6 +43,7 @@ function Home() {
 
       <Animate.FadeIn>
         <div className="session-two__container2">
+          <img src={p50} className="w-100" alt="" />
           <div className="session-two__container2_text">
             <div className="session-two__container2_text_3">
               <img className='' src={beatingHeart}
@@ -130,6 +131,18 @@ function Home() {
 
 
           </div>
+        </div>
+      </Animate.FadeIn>
+
+      <Animate.FadeIn>
+        <div>
+        <p style={{
+          fontSize: 40,
+          height: 'auto'
+        }} className='session-6__container--end mb-4'>
+              Hăm đi xa được <br /> Thì tớ có mã QR này
+            </p>
+          <img src={qr} className="w-100" alt="" />
         </div>
       </Animate.FadeIn>
 
@@ -240,9 +253,6 @@ function Home() {
             fontFamily: "Vanilla",
             fontSize: '80px',
             top: '270px',
-            background: 'linear-gradient(to right, #2196f3, #f44336)',
-            'WebkitBackgroundClip': 'text',
-            'WebkitTextFillColor': 'transparent'
           }}>Thank You</p>
           <p
             style={{
@@ -250,9 +260,6 @@ function Home() {
               fontFamily: "UVNAiCapNhe",
               fontSize: '25px',
               top: '380px',
-              background: 'linear-gradient(to right, #eecda3, #ef629f)',
-              'WebkitBackgroundClip': 'text',
-              'WebkitTextFillColor': 'transparent'
             }} >for celebrating with us</p>
           <img style={{
             position: 'absolute',
