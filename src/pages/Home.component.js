@@ -113,6 +113,9 @@ function Home() {
                   <img src={place} alt="icon" />
                 </div>
                 <div className="col-9 session-6__container--subtitle session-6__container--subtitle-2">
+                  Sảnh King, Tầng 2
+                <br />
+
                   170 Đường Wừu, P. Hội Thương, Thành phố Pleiku, Gia Lai
                 </div>
               </div>
