@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kai-rin/static/css/main.e0251e48.css",
-    "main.js": "/kai-rin/static/js/main.80f606e3.js",
+    "main.js": "/kai-rin/static/js/main.eeccda3a.js",
     "static/js/787.fdebc965.chunk.js": "/kai-rin/static/js/787.fdebc965.chunk.js",
     "static/media/Pic-6.jpg": "/kai-rin/static/media/Pic-6.6f3f27c8d55b91a86aed.jpg",
     "static/media/Pic-9.jpg": "/kai-rin/static/media/Pic-9.6d05b4a777b80b26f1f1.jpg",
@@ -34,11 +34,11 @@
     "static/media/SVN-Ginger.otf": "/kai-rin/static/media/SVN-Ginger.1cddce653ec8ad6f1a8d.otf",
     "index.html": "/kai-rin/index.html",
     "main.e0251e48.css.map": "/kai-rin/static/css/main.e0251e48.css.map",
-    "main.80f606e3.js.map": "/kai-rin/static/js/main.80f606e3.js.map",
+    "main.eeccda3a.js.map": "/kai-rin/static/js/main.eeccda3a.js.map",
     "787.fdebc965.chunk.js.map": "/kai-rin/static/js/787.fdebc965.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0251e48.css",
-    "static/js/main.80f606e3.js"
+    "static/js/main.eeccda3a.js"
   ]
 }
